@@ -4,15 +4,15 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import Main from "../../components/Main/Main";
 import Navbar from "../../components/Navbar/Navbar";
-import "../Home/Home.css"
+import "../Home/Home.css";
 const Home = () => {
   return (
     <div className="home">
-      <Header />
+      <Header title="Home" />
       <Navbar />
-      <Aside/>
-      <Main/>
-      <Footer/>
+      <Aside />
+      <Main />
+      <Footer />
     </div>
   );
 };
